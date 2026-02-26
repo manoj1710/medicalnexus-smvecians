@@ -1,0 +1,43 @@
+# MedIntel Nexus: Granular Functional Gap Analysis
+
+This document provides a detailed list of all interactive elements within "MedIntel Nexus" that are currently aesthetic placeholders (non-functional) or simulated.
+
+## 1. Global Navigation (Navbar)
+- **Notification Bell**: Visual indicator only; does not show actual alerts.
+- **Search Bar (Desktop/Admin)**: Does not filter or search any actual data.
+
+## 2. Landing Page
+- **"Start Assessment" Button**: Works (Routes to Assessment).
+- **"Book Appointment" Button**: Works (Routes to Booking).
+- **Feature Cards**: Static; do not link to deeper module details.
+
+## 3. Dashboard Page
+- **KPI Trend Indicators**: Up/Down arrows and percentages are static mock data.
+- **Sidebar Actions (Appointments, Patients, Reports, Settings)**: Clicking these does not change the view; they are visual placeholders.
+- **"Recent Urgent Cases" List**: Static list. Clicking on a patient entry does not open a "Patient File" or detailed history.
+- **Recharts Bar Chart**: Displays static data; does not update dynamically based on triage results.
+
+## 4. Clinical Assessment Page
+- **AI Processing**: Completely simulated with a random number generator for the triage score.
+- **"Submit to AI Engine"**: Functional as a simulation, but doesn't actually hit a machine learning model.
+- **"Clear Form" (Refresh icon)**: Functional (Clears local state).
+- **"Fast-Track Emergency Room" Button**: Visual route; does not trigger actual hospital notifications.
+
+## 5. Appointment Booking Page
+- **Doctor Filters**: "All Specialists", "Nearby", and the "Filter Icon" do not sort or filter the doctor list.
+- **Slot Persistent**: Selecting a slot and clicking "Confirm" shows a success message, but does not remove the slot for future users or save it to a database.
+- **"Activate Priority Route" Banner Button**: Visual effect only.
+
+## 6. Admin Panel
+- **Mini-Sidebar (Overview, Queries, Appointments, etc.)**: Non-functional; does not switch administrative contexts.
+- **Patient Detail Table**:
+  - **Search for Patient**: Does not filter the table.
+  - **More Vertical Icon (⋮)**: Does not open a menu.
+  - **"Load More Activity Logs"**: Does not fetch additional data.
+- **Network Integrity (AI Confidence Index)**: Static gauge; does not reflect actual model performance.
+
+## 7. User Profile
+- **"Edit Profile" Button**: Triggers no action.
+- **"Open AI Chat" Button**: Does not open a chat window.
+- **Medical History/Vital Stats Buttons**: These lead nowhere; they are purely for UI demonstration.
+- **"Sign Out"**: Does not actually invalidate a session (as no auth system exists).
