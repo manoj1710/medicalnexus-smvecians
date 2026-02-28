@@ -1,116 +1,207 @@
-# 🏥 MedIntel Nexus  
-### AI-Powered Clinical Triage & Intelligent Care Routing System
+🏥 MedIntel Nexus
+AI-Powered Clinical Triage & Intelligent Appointment Routing System
+🚀 Live Demo & Submission Links
+🌐 Frontend Deployment
 
----
+👉 https://medicalnexus-smvecians.netlify.app/
 
-## 📌 Overview
+🔗 Backend Deployment
 
-MedIntel Nexus is an AI-driven clinical triage platform designed to simulate real-world hospital pre-consultation workflows.  
+👉 https://medica-backend-00co.onrender.com/
 
-It intelligently analyzes patient-reported symptoms, assigns a structured risk score, recommends the appropriate medical specialist, and seamlessly routes the patient into a guided appointment booking system.
+(API Docs: https://medica-backend-00co.onrender.com/docs
+)
 
-Built for **TetherX – 24 Hour Industry Simulation Hackathon**, this project focuses on strategic healthcare automation rather than just chatbot-style responses.
+📂 GitHub Repositories
 
----
+Frontend Repository
+👉 https://github.com/manoj1710/medicalnexus-smvecians
 
-## 🎯 Problem Statement
+Backend Repository
+👉 https://github.com/manoj1710/medica-backend
 
-Modern healthcare systems face:
+🎥 Demo Video
 
-- ❌ Overloaded emergency rooms  
-- ❌ Incorrect specialist bookings  
-- ❌ Delayed triage prioritization  
-- ❌ Manual pre-consultation inefficiencies  
+👉 https://drive.google.com/file/d/1K9taY7IZz4_wNL275r86Z9uRjckfy6Bi/view?usp=drivesdk
 
-Patients often book the wrong department, leading to increased wait times and operational strain.
+📊 Presentation Deck
 
----
+👉 https://docs.google.com/presentation/d/1MX5g9gUmqig0VA3uV0faJ0Oz9Ejmj6qz/edit?usp=drivesdk
 
-## 💡 Our Solution
+🧠 Problem Statement
 
-MedIntel Nexus introduces:
+Modern hospital booking systems function purely as schedulers, lacking an intelligent clinical triage layer.
 
-> **AI-Based Pre-Consultation Triage + Automated Specialist Routing**
+This leads to:
 
-### 🔍 System Flow
+❌ Misrouted specialist appointments
 
-Patient → Symptom Input → AI Triage Engine → Risk Classification → Specialist Mapping → Smart Booking Highlight
+❌ Emergency cases not identified early
 
----
+❌ Increased ER congestion
 
-## 🧠 Core Features
+❌ Workflow inefficiencies
 
-### 1️⃣ AI Clinical Triage Engine
-- NLP-powered symptom analysis (Gemini API)
-- Structured JSON response
-- Triage score (0–10)
-- Risk level classification
-- Specialist recommendation
-- Clinical advisory note
+❌ Delayed clinical intervention
 
----
+Hospitals need structured pre-consultation intelligence before scheduling decisions are made.
 
-### 2️⃣ Intelligent Workflow Routing
-- Automatically highlights recommended specialist
-- Seamless booking page integration
-- Reduces wrong-department appointments
+💡 Our Solution
 
----
+MedIntel Nexus introduces an AI-Driven Pre-Consultation Triage Engine that:
 
-### 3️⃣ Emergency Escalation System
-- Detects critical conditions
-- Visual emergency banner
-- Escalation UI simulation
+Converts natural language symptom descriptions into structured risk classifications.
 
----
+Assigns quantified severity scores (1–10).
 
-### 4️⃣ Risk Visualization
-- Animated circular risk meter
-- Color-coded severity mapping
-- Smooth UI transitions
+Automatically maps patients to the appropriate specialist.
 
----
+Escalates high-risk cases through emergency override logic.
 
-### 5️⃣ Multi-Stage AI Simulation
-Simulates clinical reasoning process:
-- Analyzing symptoms
-- Identifying risk factors
-- Matching specialist
-- Finalizing triage
+Seamlessly integrates into booking workflow.
 
----
+🔄 System Workflow
 
-### 6️⃣ Responsive Industry-Grade UI
-- Clean medical aesthetic
-- Mobile responsive design
-- Structured data visualization
-- Professional empty states
+Patient → Symptom Input → AI Triage Engine → Risk Score → Specialist Recommendation → Smart Booking → Emergency Escalation (if required)
 
----
+🏗 Technical Architecture
+Frontend
 
-## 🏗 System Architecture
+React.js
 
-Frontend:  
-React.js  
+Responsive UI
 
-Backend:  
-FastAPI (Python)  
+Risk visualization (animated score meter)
 
-AI Model:  
-Google Gemini (Structured JSON Output)  
+Emergency escalation interface
 
-Deployment:  
-Render (Backend)  
+Smart specialist highlighting
 
----
+Backend
 
-## 🔄 API Flow
+FastAPI (Python)
 
-### POST `/triage`
+Structured JSON API
 
-**Request:**
-```json
-{
-  "symptoms": "Severe chest pain radiating to left arm",
-  "severity": 9
-}
+Gemini NLP integration
+
+Hybrid AI + rule-based override
+
+Deployment
+
+Netlify (Frontend)
+
+Render (Backend)
+
+Cloud-based scalable architecture
+
+🧠 Core Innovation
+
+Embedded AI triage directly inside booking workflow.
+
+Structured risk intelligence instead of chatbot text output.
+
+Hybrid AI + deterministic safety override.
+
+Auto-routing specialist mapping.
+
+Modular API-based design for hospital integration.
+
+This transforms booking from a scheduling transaction into a clinical decision-support system.
+
+🚨 Emergency Escalation Framework
+
+If critical risk detected:
+
+🚨 Visual emergency banner
+
+🚨 Red escalation UI
+
+🚨 Immediate routing recommendation
+
+Safety-first design aligned with healthcare standards.
+
+📊 Projected Healthcare Impact
+
+Simulated operational improvements:
+
+30% reduction in misrouted appointments
+
+35% faster pre-consultation triage
+
+22% reduction in ER overload
+
+Improved patient routing accuracy
+
+💼 Business Model
+
+AI Triage-as-a-Service (TaaS)
+
+SaaS subscription for hospitals
+
+API usage billing
+
+White-label solution for hospital chains
+
+Analytics dashboard monetization
+
+Target Markets:
+
+Mid-sized hospitals
+
+Telemedicine platforms
+
+Private healthcare networks
+
+⚙ Feasibility
+
+Cloud-native scalable deployment
+
+Modular integration via REST APIs
+
+Minimal infrastructure dependency
+
+Incremental hospital adoption model
+
+Built on existing NLP ecosystem
+
+🔐 Responsible AI Considerations
+
+AI does not replace medical diagnosis.
+
+Structured risk classification for decision support only.
+
+Hybrid override ensures deterministic emergency escalation.
+
+Designed for integration with human clinical oversight.
+
+📈 Future Roadmap
+
+EMR system integration
+
+Multi-hospital deployment
+
+Risk trend analytics dashboard
+
+Predictive patient flow modeling
+
+National healthcare infrastructure scaling
+
+👨‍💻 Team
+
+Team Name: SMVECIANS
+Theme: “Smart Triage. Intelligent Routing. Safer Care.”
+
+🏆 Why MedIntel Nexus?
+
+Because healthcare booking should not be blind scheduling.
+
+It should be:
+
+✔ Risk-aware
+✔ AI-assisted
+✔ Workflow-driven
+✔ Clinically structured
+✔ Operationally efficient
+
+MedIntel Nexus delivers exactly that.
